@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/popculturequiz/static/css/main.631c9f9b.chunk.css",
-    "main.js": "/popculturequiz/static/js/main.94ebbf6a.chunk.js",
-    "main.js.map": "/popculturequiz/static/js/main.94ebbf6a.chunk.js.map",
+    "main.js": "/popculturequiz/static/js/main.5b21479e.chunk.js",
+    "main.js.map": "/popculturequiz/static/js/main.5b21479e.chunk.js.map",
     "runtime-main.js": "/popculturequiz/static/js/runtime-main.3d8a1a0a.js",
     "runtime-main.js.map": "/popculturequiz/static/js/runtime-main.3d8a1a0a.js.map",
     "static/js/2.edf4f649.chunk.js": "/popculturequiz/static/js/2.edf4f649.chunk.js",
     "static/js/2.edf4f649.chunk.js.map": "/popculturequiz/static/js/2.edf4f649.chunk.js.map",
     "index.html": "/popculturequiz/index.html",
-    "precache-manifest.ef16668d18b7444564d30425f0bb9f58.js": "/popculturequiz/precache-manifest.ef16668d18b7444564d30425f0bb9f58.js",
+    "precache-manifest.f5685c39b1d6721031d9ed7fa09f90f5.js": "/popculturequiz/precache-manifest.f5685c39b1d6721031d9ed7fa09f90f5.js",
     "service-worker.js": "/popculturequiz/service-worker.js",
     "static/css/main.631c9f9b.chunk.css.map": "/popculturequiz/static/css/main.631c9f9b.chunk.css.map",
     "static/js/2.edf4f649.chunk.js.LICENSE.txt": "/popculturequiz/static/js/2.edf4f649.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3d8a1a0a.js",
     "static/js/2.edf4f649.chunk.js",
     "static/css/main.631c9f9b.chunk.css",
-    "static/js/main.94ebbf6a.chunk.js"
+    "static/js/main.5b21479e.chunk.js"
   ]
 }

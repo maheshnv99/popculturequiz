@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb729093ba07ab904ce2a6ec8e3bdad3",
+    "revision": "40c6d7767fd0a7f6f181258e329dd8c7",
     "url": "/popculturequiz/index.html"
   },
   {
-    "revision": "df1a240351d4f48c98d2",
+    "revision": "85491b374b09efefcd5e",
     "url": "/popculturequiz/static/css/main.631c9f9b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/popculturequiz/static/js/2.edf4f649.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df1a240351d4f48c98d2",
-    "url": "/popculturequiz/static/js/main.94ebbf6a.chunk.js"
+    "revision": "85491b374b09efefcd5e",
+    "url": "/popculturequiz/static/js/main.5b21479e.chunk.js"
   },
   {
     "revision": "a9a7bbbe65d25bceb30c",
