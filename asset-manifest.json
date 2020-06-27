@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/popculturequiz/static/css/main.4ad739f5.chunk.css",
-    "main.js": "/popculturequiz/static/js/main.7a8630a6.chunk.js",
-    "main.js.map": "/popculturequiz/static/js/main.7a8630a6.chunk.js.map",
+    "main.css": "/popculturequiz/static/css/main.631c9f9b.chunk.css",
+    "main.js": "/popculturequiz/static/js/main.94ebbf6a.chunk.js",
+    "main.js.map": "/popculturequiz/static/js/main.94ebbf6a.chunk.js.map",
     "runtime-main.js": "/popculturequiz/static/js/runtime-main.3d8a1a0a.js",
     "runtime-main.js.map": "/popculturequiz/static/js/runtime-main.3d8a1a0a.js.map",
     "static/js/2.edf4f649.chunk.js": "/popculturequiz/static/js/2.edf4f649.chunk.js",
     "static/js/2.edf4f649.chunk.js.map": "/popculturequiz/static/js/2.edf4f649.chunk.js.map",
     "index.html": "/popculturequiz/index.html",
-    "precache-manifest.4239334b16374c5eafc44f1972ef3a8d.js": "/popculturequiz/precache-manifest.4239334b16374c5eafc44f1972ef3a8d.js",
+    "precache-manifest.ef16668d18b7444564d30425f0bb9f58.js": "/popculturequiz/precache-manifest.ef16668d18b7444564d30425f0bb9f58.js",
     "service-worker.js": "/popculturequiz/service-worker.js",
-    "static/css/main.4ad739f5.chunk.css.map": "/popculturequiz/static/css/main.4ad739f5.chunk.css.map",
+    "static/css/main.631c9f9b.chunk.css.map": "/popculturequiz/static/css/main.631c9f9b.chunk.css.map",
     "static/js/2.edf4f649.chunk.js.LICENSE.txt": "/popculturequiz/static/js/2.edf4f649.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3d8a1a0a.js",
     "static/js/2.edf4f649.chunk.js",
-    "static/css/main.4ad739f5.chunk.css",
-    "static/js/main.7a8630a6.chunk.js"
+    "static/css/main.631c9f9b.chunk.css",
+    "static/js/main.94ebbf6a.chunk.js"
   ]
 }
