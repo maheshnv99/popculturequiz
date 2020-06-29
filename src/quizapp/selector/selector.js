@@ -41,12 +41,12 @@ changegenre=(event)=>{
     render() {
     return (
         <div>
-            <div><label className="labels m-2">GENRE:</label>
+            <div><label className="labels m-2">TOPIC:</label>
                 <select onChange={this.changegenre}>
         <option value="comics">Comics</option>
         <option value="Anime">Anime</option>
-        {/* <option value="Movies">Movies</option>
-        */}
+        <option value="Movies">Movies</option>
+       
     </select></div>
     <div>{  this.state.genre==="comics"?(<div className="text-center">
     <span className="lg-col-4 sm-col-12 m-4"><label className="labels m-2">TOPIC:</label>
@@ -64,7 +64,7 @@ changegenre=(event)=>{
     </select>
     </span>
     
-    <button className="btn btn-primary lg-col-4 sm-col-12 p-2 m-3"  onClick={this.getquizquestions}>Start Quiz</button></div>):null
+    <button className="btn btn-success lg-col-4 sm-col-12 p-2 m-3"  onClick={this.getquizquestions}>Start Quiz</button></div>):null
 
 
                     }</div>
@@ -76,7 +76,6 @@ this.state.genre==="Anime"?(<div className="text-center">
     
     <option value="AOT">ATTACK ON TITAN</option> 
     <option value="NARUTO">NARUTO</option>
-    <option value="MHA">MY HERO ACADEMIA</option>
 </select></span>
 <span className="lg-col-4 sm-col-12 m-4">
 <label className="labels m-2">DIFFICULTY : </label>
@@ -87,31 +86,31 @@ this.state.genre==="Anime"?(<div className="text-center">
 </select>
 </span>
 
-<button className="btn btn-primary lg-col-4 sm-col-12 p-2 m-3"  onClick={this.getquizquestions}>Start Quiz</button></div>):null
+<button className="btn btn-success lg-col-4 sm-col-12 p-2 m-3"  onClick={this.getquizquestions}>Start Quiz</button></div>):null
 
 
 
 }
     </div>
    <div> {
-//     this.state.genre==="Movies"?(<div className="text-center">
-//     <span className="lg-col-4 sm-col-12 m-4"><label className="labels m-2">TOPIC:</label>
-// <select onChange={this.changetopic}>
+    this.state.genre==="Movies"?(<div className="text-center">
+    <span className="lg-col-4 sm-col-12 m-4"><label className="labels m-2">TOPIC:</label>
+<select onChange={this.changetopic}>
        
-//         {/* <option value="ANIME">ANIME</option> */}
-//         <option value="Harry Potter">Harry Potter</option> 
-//         <option value="Star Wars">Star Wars</option>
-//     </select></span>
-//     <span className="lg-col-4 sm-col-12 m-4">
-//     <label className="labels m-2">DIFFICULTY : </label>
-//     <select onChange={this.changedifficulty}>
-//         <option value="easy">EASY</option>
-//         <option value="moderate">MODERATE</option>
-//         <option value="hard">HARD</option>
-//     </select>
-//     </span>
+        {/* <option value="ANIME">ANIME</option> */}
+        <option value="Harry Potter">Harry Potter</option> 
+        <option value="Star Wars">Star Wars</option>
+    </select></span>
+    <span className="lg-col-4 sm-col-12 m-4">
+    <label className="labels m-2">DIFFICULTY : </label>
+    <select onChange={this.changedifficulty}>
+        <option value="easy">EASY</option>
+        <option value="moderate">MODERATE</option>
+        <option value="hard">HARD</option>
+    </select>
+    </span>
     
-//     <button className="btn btn-primary lg-col-4 sm-col-12 p-2 m-3"  onClick={this.getquizquestions}>Start Quiz</button></div>):null
+    <button className="btn btn-success lg-col-4 sm-col-12 p-2 m-3"  onClick={this.getquizquestions}>Start Quiz</button></div>):null
 
 
 }</div>

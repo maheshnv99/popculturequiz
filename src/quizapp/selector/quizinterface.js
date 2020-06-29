@@ -1,7 +1,6 @@
 import React from 'react';
 import './quizinterface.css';
-import {getDCquestions,getMARVELquestions,getANIMEquestions,getAOTquestions,getNATquestions,getMHAquestions} from './questionlist';
-import {animefacts,Superherofacts} from './facts';
+import {getDCquestions,getMARVELquestions,getANIMEquestions,getAOTquestions,getNATquestions} from './questionlist';
 import Questionbox from './questionbox';
 import Selector from './selector';
 import Timer from './timer'
@@ -19,8 +18,7 @@ constructor(props) {
         score:0,
         settimer:false,
         timer:60,
-        genre:"comics",
-        quote:""
+        genre:"comics"
 
     };
 }
@@ -37,8 +35,7 @@ this.setState({
     score:0,
     settimer:false,
     timer:60,
-    genre:"comics",
-    quote:""
+    genre:"comics"
     
     
 
@@ -109,18 +106,7 @@ if (k==="AOT"){
 if(k==="NARUTO"){
     question=getNATquestions(this.state.difficulty);
 }
-if(k==="MHA"){
-    question=getMHAquestions(this.state.difficulty);
-}
-if (this.state.genre=="comics"){
-    const quote=Superherofacts();
-this.setState({quote:quote});
 
-}
-if(this.state.genre=="Anime"){
-    const quote=animefacts();
-this.setState({quote:quote});
-}
 this.setState({
     questions:question,
     responses:0,
@@ -147,7 +133,7 @@ if(this.state.responses<5){if(choosen===correct){
 
 }
 timeout(){
-    
+    console.log("timeout");
 this.setState({
 
 timer:60,
@@ -208,15 +194,14 @@ responses:5
                     )
                     }
                     {
-                        this.state.responses===5 ? ( <div ><h2 className="p-2 score">Your Score</h2><h1 className="p-2 score">{this.state.score}/50</h1>
+                        this.state.responses===5 ? ( <div><h2 className="p-2">Your Score</h2><h1 className="p-2">{this.state.score}/50</h1>
                         <button className="btn btn-primary m-2" onClick={()=>this.refresher()}>Retake Quiz</button>
-                    <h2 className="fact">{this.state.genre} fun-fact:<br />"{this.state.quote}" </h2>
                             </div> 
              ):null
 
                     }
                     
-                    
+
 
                 </div>
                
