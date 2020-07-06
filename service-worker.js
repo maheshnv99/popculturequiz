@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/popculturequiz/precache-manifest.c2b4b1c5961dc5f061c51930b063ae41.js"
+  "/popculturequiz/precache-manifest.a1a191ef0c3d3c739cb975d2e9b387c5.js"
 );
 
 self.addEventListener('message', (event) => {
